@@ -6,5 +6,4 @@ Changes:
 
 Credits:
 - Xaddgx for Offset Fix
-- Crazycatz for Final and Anti Form icons
 - OpenKH and Plando Dev Server for documentations
