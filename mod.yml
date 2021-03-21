@@ -1,0 +1,33 @@
+title: Crazycatz Fixes
+originalAuthor: Xaddgx
+game: kh2
+description: Fixes synth icon glitch & offset (makes most cheat codes work properly).
+assets:
+#Pictures (Forms)
+- name: itempic/item-269.imd
+  method: imd
+  source:
+  - name: Final Form.png
+- name: itempic/item-271.imd
+  method: imd
+  source:
+  - name: Anti Form.png
+#Offset Fix & Implement New Icon
+- name: 03system.bin
+  method: copy
+  source:
+  - name: 03system.bin
+#Fix Synth Icon Glitch
+- name: msg/jp/fontimage.bar
+  method: copy
+  source:
+  - name: fontimage.bar
+#Some Limit Form RAM Fix
+- name: obj/P_EX100_KH1F.mset
+  method: copy
+  source:
+  - name: P_EX100_KH1F.mset
+- name: obj/W_EX010_KH1F.mset
+  method: copy
+  source:
+  - name: W_EX010_KH1F.mset
